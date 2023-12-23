@@ -10,15 +10,14 @@
 
 .Link {
   text-decoration: none;
-  color: white;
-  opacity: 0.5;
+  color: #ffffffa6;
   font-weight: 600;
-  transition: 0.35s ease all;
+  transition: 0.5s ease all;
 }
 .Link:hover {
   color: white;
   opacity: 1;
-  transition: 0.35s ease all;
+  transition: 0.5s ease all;
 }
 
 h1 {
@@ -74,6 +73,7 @@ h1 {
 
 header {
   /* margin: 1vw; */
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +82,7 @@ header {
   width: 100vw;
   background: linear-gradient(#000b15 75%, rgba(0, 0, 0, 0));
   /* border-bottom: 1px solid black; */
-  height: 10vh;
+  height: 15vh;
   transition: 0.5s ease all;
   opacity: 100%;
 }
