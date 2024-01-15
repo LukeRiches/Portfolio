@@ -40,9 +40,8 @@ function Contact() {
           <section id="Email">
             <h4>Email:</h4>
             <a href="mailto:Lukejr2603@gmail.com" id="Email-Link">
-              Lukejr2603@gmail.com {/* <section id="Arrow"> */}
+              Lukejr2603@gmail.com
               <FaArrowRight id="Arrow" />
-              {/* </section> */}
             </a>
           </section>
           <section id="Social-Platforms">
