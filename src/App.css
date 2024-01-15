@@ -803,14 +803,6 @@ html {
     margin-top: 10vh;
   }
 
-  #Name {
-    text-align: left;
-    text-decoration: underline 5px solid #0070d4;
-    text-underline-offset: 0.5vh;
-    margin: 2vw;
-    border-bottom: none;
-  }
-
   #About {
     width: 95%;
     height: auto;
