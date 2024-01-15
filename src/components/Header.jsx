@@ -1,13 +1,8 @@
 import { useState } from "react";
-// import logo from "../assets/ALT-LOGO.png";
-// import logo from "../assets/Long-Logo.png";
-// import logo from "../assets/Logo-Dark.png";
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [,] = useState();
-
   const logo = "{LJR}";
 
   return (
@@ -25,46 +20,19 @@ function Header() {
           id="Logo"
         >
           <h1>{logo}</h1>
-          {/*   <img
-             src={logo}
-             alt="My logo which has an icon of a code editor and beneath that 'Luke Riches Junior Developer'  "
-             width="250"
-             length="225"
-           /> */}
         </Link>
 
         <nav>
-          <HashLink
-            className="Link"
-            // activeClassName="active"
-            // activeStyle={{ color: "red" }}
-            to="#About"
-            smooth
-          >
+          <HashLink className="Link" to="#About" smooth>
             About
           </HashLink>
-          <HashLink
-            className="Link"
-            // activeClassName="active"
-            to="#Skills"
-            smooth
-          >
+          <HashLink className="Link" to="#Skills" smooth>
             Skills
           </HashLink>
-          <HashLink
-            className="Link"
-            // activeClassName="active"
-            to="#Projects"
-            smooth
-          >
+          <HashLink className="Link" to="#Projects" smooth>
             Projects
           </HashLink>
-          <HashLink
-            className="Link"
-            // activeClassName="active"
-            to="#Contact"
-            smooth
-          >
+          <HashLink className="Link" to="#Contact" smooth>
             Contact
           </HashLink>
         </nav>
