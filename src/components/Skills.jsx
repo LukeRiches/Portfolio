@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Phaser from "../assets/Phaser-Logo.png";
 import Piskel from "../assets/piksel-logo.png";
 import Tiled from "../assets/tiled-logo.png";
-import { FaGithub, FaNode, FaReact } from "react-icons/fa";
+import { FaBootstrap, FaGithub, FaNode, FaReact } from "react-icons/fa";
 import {
   SiAxios,
   SiDotenv,
@@ -55,9 +55,9 @@ function Skills() {
                 Throughout my time at Northcoders I was introduced to many
                 coding principles such as version control through Git and
                 GitHub. The language which has been the foundation to everything
-                I have learnt so far is JavaScript, run through Node.JS. Test
-                Driven Development, through Jest, is an integral principal that
-                leads my development to guarantee a high standard of code.
+                I have learnt so far is JavaScript, through Node.JS. Test Driven
+                Development, with Jest, is an integral principal that leads my
+                development to guarantee a high standard of code.
               </p>
             </section>
           </section>
@@ -118,23 +118,6 @@ function Skills() {
               <p className="skill " id="Skill-Description">
                 With Jest
               </p>
-            </li>
-
-            <li
-              className="card-no-description animate__animated animate__fadeIn"
-              key="NPM"
-            >
-              <section>
-                <section id="Icons">
-                  <p className="skill" id="Icon">
-                    <DiNpm />
-                  </p>
-                </section>
-
-                <p className="skill" id="Title">
-                  NPM
-                </p>
-              </section>
             </li>
 
             <li
@@ -262,6 +245,23 @@ function Skills() {
 
                 <p className="skill" id="Title">
                   CSS
+                </p>
+              </section>
+            </li>
+
+            <li
+              className="card-no-description animate__animated animate__fadeIn"
+              key="Bootstrap"
+            >
+              <section>
+                <section id="Icons">
+                  <p className="skill" id="Icon">
+                    <FaBootstrap />
+                  </p>
+                </section>
+
+                <p className="skill" id="Title">
+                  Bootstrap
                 </p>
               </section>
             </li>
@@ -468,7 +468,7 @@ function Skills() {
                 feels surreal, my introduction to game development was through
                 Phaser which applied concepts like Object Orientated
                 Programming. Another part I really enjoyed was Sprite work which
-                has furthered my respect for games artists.This is something I
+                has furthered my respect for games artists. This is something I
                 thoroughly enjoy and will continue.
               </p>
             </section>

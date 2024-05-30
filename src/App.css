@@ -408,8 +408,17 @@ a:hover {
 
 #Title {
   font-size: medium;
-  display: flex;
-  align-items: flex-start;
+  display: block;
+  /* display: flex;
+  align-items: flex-start; */
+  transition: 0.5s ease all;
+}
+
+#Solo-Title {
+  font-size: medium;
+  display: block;
+  /* display: flex;
+  align-items: flex-start; */
   transition: 0.5s ease all;
 }
 
@@ -923,6 +932,11 @@ html {
     line-height: normal;
   }
 
+  #Solo-Title {
+    margin: 0.1vh;
+    line-height: normal;
+  }
+
   #Skill-Description {
     display: none;
   }
@@ -959,8 +973,10 @@ html {
   }
 
   .Project-Card-Video {
-    height: 38vh;
-    width: 70%;
+    height: auto;
+    width: auto;
+    padding: 1rem 0;
+    margin-top: 1rem;
   }
 
   #Email-Link {
